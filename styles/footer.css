@@ -1,0 +1,113 @@
+.single_line__links--info_link {
+    margin-left: 100px;
+}
+
+.single_line__links--cookies_link {
+    margin-left: 340px;
+}
+
+.single_line__links--privacy_link {
+    margin-left: 100px;
+}
+footer {
+    background-color: #26353c;
+    height: 100px;
+    width: 120%;
+    background-size: cover;
+    position: relative;
+    top: 14px;
+    margin-left: -40px;
+    position: relative;
+    left: -14px;
+    margin-right: 14px;
+}
+
+.single_line__last_page_logo {
+    margin-left: 450px;
+    height: 30px;
+}
+
+.footer__single_line {
+    display: inline-block;
+    margin-top: 36px;
+
+}
+
+.single_line__links {
+    background-color: Transparent;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Rubik', serif;
+    opacity: 0.6;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 600px) {
+    footer {
+        height: 130px;
+       
+    }
+    .footer__single_line {
+        display: block;
+        margin: -36px 0px 0px;
+        width: 100%;
+    
+    }
+    .single_line__last_page_logo {
+        margin-left: 150px;
+        height: 24px;
+    }
+    .single_line__links--info_link {
+        margin-left: 80px;
+        margin-bottom: 12px;
+        padding-top: 12px;
+
+    }
+    
+    .single_line__links--cookies_link {
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    
+    .single_line__links--privacy_link {
+        margin-left: 52px;
+    }
+    
+}
+@media screen and (min-width: 2400px) {
+    .single_line__links--info_link {
+        margin-left: 100px;
+    }
+    
+    .single_line__links--cookies_link {
+        margin-left: 500px;
+    }
+    
+    .single_line__links--privacy_link {
+        margin-left: 120px;
+    }
+    footer {
+        height: 13vh;
+    }
+    
+    .single_line__last_page_logo {
+        margin-left: 700px;
+        height: 60px;
+    }
+    
+    .footer__single_line {
+        display: inline-block;
+        margin-top: 36px;
+    
+    }
+    
+    .single_line__links {
+        background-color: Transparent;
+        border: none;
+        color: #FFFFFF;
+        font-family: 'Rubik', serif;
+        opacity: 0.6;
+        font-size: 32px;
+        padding-bottom: 0px;
+    }
+}

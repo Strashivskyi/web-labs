@@ -1,0 +1,116 @@
+.text_grid_container__material_names {
+    font-family: ‘Merriweather’, Georgia, serif;
+    font-size: 30px;
+    color: #222F33;
+    line-height: 1.6;
+}
+
+.text_grid_container__material_descriptions {
+    font-size: 20px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    line-height: 1.6;
+}
+.third_section__general_grid_container {
+    display: grid;
+    grid-template-columns: 480px auto;
+    grid-gap: 100px;
+    height: 400px;
+    margin: 80px 150px 140px;}
+
+.general_grid_container__second_cabin_img {
+    height: 100%;
+}
+.general_grid_container__text_grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, minmax(88px, 105px));
+    gap: 60px 85px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .general_grid_container__second_cabin_img {
+display: none;
+    }
+    .third_section__general_grid_container {
+        background: url('../assets/grass_grass_grass.png') no-repeat fixed top center;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0;
+        height: 800px;
+        width: 100%;
+        margin: -36px 0 0
+    ;
+    }
+    .text_grid_container__material_names {
+        font-family: ‘Merriweather’, Georgia, serif;
+        font-size: 20px;
+        color: #e9e9e9;
+        line-height: 1.6;
+    }
+    
+    .text_grid_container__material_descriptions {
+        font-size: 15px;
+                color: #dbdbdb;
+        font-family: 'Rubik', serif;
+        line-height: 1.6;
+    }
+    .general_grid_container__text_grid_container {
+        margin: 30px 5px 0 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        grid-template-rows: repeat(6, minmax(50px, 100px));
+
+    }
+    .text_grid_container__material_names--right{
+        margin-left: 50px;
+        padding-left: 10px;
+
+    }
+    .text_grid_container__material_names--left{
+        padding-left: 10px;
+        margin-right: 50px;
+
+    }
+    
+    .text_grid_container__vertical-hyphen_left{
+        border-left: 3px solid;
+        color: #dbdbdb;
+    }
+    
+}
+@media screen and (min-width: 2400px) {
+    .text_grid_container__material_names {
+        font-family: ‘Merriweather’, Georgia, serif;
+        font-size: 54px;
+        color: #222F33;
+        line-height: 1.6;
+    }
+    
+    .text_grid_container__material_descriptions {
+        font-size: 35px;
+        color: #646D70;
+        font-family: 'Rubik', serif;
+        line-height: 1.6;
+    }
+    .third_section__general_grid_container {
+        display: grid;
+        grid-template-columns: 28% auto;
+        grid-gap: 15vw;
+        height: 60vh;
+        margin: 9vh 150px;
+    }
+    
+    .general_grid_container__second_cabin_img {
+        height: 100%;
+    }
+    .general_grid_container__text_grid_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, minmax(160px, 200px));
+        gap: 110px 150px;
+    }
+}

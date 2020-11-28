@@ -1,0 +1,189 @@
+
+
+.left_part__durable_materials_title {
+    font-size: 47px;
+    color: #222F33;
+    font-family: ‘Merriweather’, Georgia, serif;
+    line-height: 1.7;
+}
+.add_br{
+    display: none;
+}
+.first_section_grid_container {
+    display: grid;
+    grid-template-columns: 41vw auto;
+    grid-gap: 80px;
+    height: 600px;
+    margin-right: 140px;
+    margin-left: 150px;
+}
+
+.left_part__durable_materials_text {
+    font-size: 22px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    line-height: 1.7;
+    position: relative;
+}
+
+.left_part__read_more_button {
+    font-size: 18px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    position: relative;
+    text-align: center;
+    line-height: 2.1;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    border: 1px solid #646D70;
+    background: transparent;
+}
+.left_part__read_more_button:hover {
+    color: #fff;
+    
+    border: 1px solid #646D70;
+    background: #646D70;
+}
+
+.first_section_grid_container__img {
+    background: url("../assets/construction.png");
+    background-size: cover;
+    position: relative;
+    top: -14px;
+}
+
+.img__ovals_container {
+    position: relative;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-top: 550px;
+}
+
+.ovals_container__oval {
+    height: 20px;
+    width: 20px;
+}
+
+.ovals_container__oval--half_transparent_oval {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+    .first_section_grid_container {
+        display: grid;
+        grid-template-columns: 88vw;
+        grid-template-rows: auto auto;
+        grid-gap: 150px;
+        height:750px;
+        width: 100vw;
+       padding-right: 5vw;
+        margin-left: 5vw;
+        margin-top: -8vh;
+    }
+    .left_part__durable_materials_title {
+        padding-left: 5vw;
+        font-size: 20px;
+        display: inline-block;
+        color: #222F33;
+        line-height: 1.7;
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+    }
+    .left_part__durable_materials_text {
+        font-size: 15px;
+        color: #646D70;
+        font-family: 'Rubik', serif;
+        line-height: 1.7;
+        position: relative;
+        display: block;
+    }
+    .left_part__read_more_button {
+        margin-left: 95px;
+        font-size: 14px;
+        color: #3b4046;
+        position: relative;
+        text-align: center;
+        line-height: 1.5;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 2px;
+        border: 1px solid #646D70;
+        background: transparent;
+    }
+    .first_section_grid_container__img {
+        width: 90vw;
+        height: 90vw;
+        left: -10px;
+        top: -120px;
+    }
+    .img__ovals_container {
+        position: absolute;
+        width: 170px;
+        margin-left: 60px;
+        margin-top: 250px;
+    }
+    .ovals_container__oval {
+        height: 15px;
+        width: 15px;
+    }
+    
+
+}
+@media screen and (min-width: 2400px) {
+    .first_section_grid_container {
+    display: grid;
+    grid-template-columns: 39vw auto;
+    grid-gap: 7.3vw;
+    height: 79vh;
+    margin-right: 9vw;
+    margin-left: 10vw;
+}
+.left_part__durable_materials_title {
+    top: 100px;
+    font-size: 60px;
+    color: #222F33;
+    font-family: ‘Merriweather’, Georgia, serif;
+    line-height: 1.7;
+}
+
+.left_part__durable_materials_text {
+    font-size: 40px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    line-height: 1.7;
+    position: relative;
+}
+
+.add_br{
+    display: initial;
+}
+
+.left_part__read_more_button {
+    margin-left: 0px;
+    font-size: 40px;
+    line-height: 1.9;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 2px;
+    border: 1px solid #646D70;
+    background: transparent;
+}
+.img__ovals_container {
+    position: absolute;
+    width: 400px;
+    margin-left: 240px;
+    margin-top: 930px;
+}
+.ovals_container__oval {
+    height: 40px;
+    width: 40px;
+}
+
+
+    }
+
+
+

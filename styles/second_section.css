@@ -1,0 +1,103 @@
+.second_section {
+    background-color: #26353c;
+    width: 100vw;
+    height: 423px;
+    background-size: cover;
+    position: relative;
+    top: -17px;
+    left: -14px;
+}
+.second_section__innovative_title {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: ‘Merriweather’, Georgia, serif;
+    line-height: 1.7;
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+.second_section__innovative_text {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: 'Rubik', serif;
+    line-height: 1.6;
+    column-count: 2;
+    position: relative;
+    top: 85px;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 0.7;
+}
+.br_for_innovative_text{
+    display: none;
+}
+.second_section__br_above_innovative_text{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .second_section__innovative_text {
+        column-count: 1;
+        font-size: 15px;
+        line-height: 1.6;
+        top: 15px;
+        margin-left: 23px;
+        margin-right: 23px;
+        opacity: 0.7;
+    }
+    .second_section__innovative_title {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-family: ‘Merriweather’, Georgia, serif;
+        line-height: 1.7;
+        position: relative;
+        top: 10px;
+        left: 90px;
+    }
+    .br_for_innovative_text{
+        display: initial;
+    }
+    .second_section {
+        top: -17px;
+        height: 470px;
+       
+    }
+    
+}
+@media screen and (min-width: 2400px) {
+    .second_section {
+        background-color: #26353c;
+        width: 100vw;
+        height: 56vh;
+        background-size: cover;
+        position: relative;
+        top: -17px;
+        left: -14px;
+    }
+    .second_section__innovative_title {
+        font-size: 70px;
+        color: #FFFFFF;
+        font-family: ‘Merriweather’, Georgia, serif;
+        line-height: 1.7;
+        position: relative;
+        top: 65px;
+        margin-left: 4.3vw;
+    }
+    
+    .second_section__innovative_text {
+        font-size: 38px;
+        color: #FFFFFF;
+        font-family: 'Rubik', serif;
+        line-height: 1.6;
+        column-count: 2;
+        position: relative;
+        top: 85px;
+        margin-left: 10vw;
+        margin-right: 9vw;
+        opacity: 0.7;
+    }
+    .second_section__br_above_innovative_text{
+        display: initial;
+    }
+}
