@@ -1,0 +1,297 @@
+body {
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+.first_cabin {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/first_cabin.png) no-repeat center center;
+    width: 100vw;
+    height: 102vh;
+    background-size: cover;
+    position: relative;
+    top: -14px;
+    left: -14px;
+}
+
+.second_section {
+    background-color: #26353c;
+    width: 100vw;
+    height: 423px;
+    background-size: cover;
+    position: relative;
+    top: -17px;
+    left: -14px;
+}
+
+.general_grid_container__second_cabin_img {
+    height: 100%;
+}
+
+.third_section__general_grid_container {
+    display: grid;
+    grid-template-columns: 480px auto;
+    grid-gap: 100px;
+    height: 500px;
+    margin: 100px 150px;
+}
+
+.general_grid_container__text_grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, minmax(88px, 105px));
+    gap: 60px 85px;
+}
+
+footer {
+    background-color: #26353c;
+    width: 100vw;
+    height: 115px;
+    background-size: cover;
+    position: relative;
+    top: 14px;
+    left: -14px;
+}
+
+.single_line__last_page_logo {
+    margin-left: 450px;
+    height: 30px;
+}
+
+.footer__single_line {
+    display: inline-block;
+    margin-top: 36px
+
+}
+
+.single_line__links {
+    background-color: Transparent;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Rubik', serif;
+    opacity: 0.6;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+button {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.single_line__links--info_link {
+    margin-left: 55px;
+}
+
+.single_line__links--cookies_link {
+    margin-left: 340px;
+}
+
+.single_line__links--privacy_link {
+    margin-left: 60px;
+}
+
+.material_names {
+    font-family: ‘Merriweather’, Georgia, serif;
+    font-size: 30px;
+    color: #222F33;
+    line-height: 1.6;
+}
+
+.material_descriptions {
+    font-size: 20px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    line-height: 1.6;
+}
+
+.second_section__innovative_title {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: ‘Merriweather’, Georgia, serif;
+    line-height: 1.7;
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+.second_section__innovative_text {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: 'Rubik', serif;
+    line-height: 1.6;
+    column-count: 2;
+    position: relative;
+    top: 85px;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 0.7;
+}
+
+.left_part__durable_materials_title {
+    font-size: 47px;
+    color: #222F33;
+    font-family: ‘Merriweather’, Georgia, serif;
+    line-height: 1.7;
+}
+
+.first_section_grid_container {
+    display: grid;
+    grid-template-columns: 625px auto;
+    grid-gap: 80px;
+    height: 600px;
+    margin-right: 140px;
+    margin-left: 150px;
+}
+
+.left_part__durable_materials_text {
+    font-size: 22px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    line-height: 1.7;
+    position: relative;
+}
+
+.left_part__read_more_button {
+    font-size: 18px;
+    color: #646D70;
+    font-family: 'Rubik', serif;
+    position: relative;
+    text-align: center;
+    line-height: 2.1;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    border: 1px solid #646D70;
+    background: transparent;
+}
+
+.first_section_grid_container__img {
+    background: url("../assets/construction.png");
+    background-size: cover;
+    position: relative;
+    top: -14px;
+}
+
+.img__ovals_container {
+    position: relative;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-top: 550px;
+}
+
+.ovals_container__oval {
+    height: 20px;
+    width: 20px;
+}
+
+.ovals_container__oval--half_transparent_oval {
+    opacity: 0.6;
+}
+
+.button_set {
+    margin-left: 43vw;
+    margin-top: -45px;
+    position: relative;
+}
+
+.button_set__button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rubik', serif;
+    font-weight: 630;
+}
+
+.button_set__button--contact_button {
+    background-color: #FFFFFF;
+    color: #606B74;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.first_page_logo {
+    margin-left: 150px;
+    margin-top: 45px;
+    height: 40px;
+}
+
+.first_page_grid_container__text {
+    padding-top: 90px;
+}
+
+.text__sustainable_title {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-family: 'Rubik', serif;
+    font-weight: 630;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+
+.text__sustainable_text {
+    position: relative;
+    color: white;
+    font-size: 46px;
+    font-family: ‘Merriweather’, Georgia, serif;
+    font-weight: 710;
+    line-height: 1.4;
+}
+
+.flex_container_for_watch_movie__text {
+    position: relative;
+    color: white;
+    padding-top: 34px;
+    margin-left: -11px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Rubik', serif;
+}
+
+.flex_container_for_watch_movie__play_button {
+    width: 100px;
+}
+
+.first_page_grid_container__flex_container_for_watch_movie {
+    display: flex;
+    height: 100px;
+    padding-top: 150px;
+}
+
+.first_page_grid_container__social_networks_grid {
+    position: relative;
+    transform: rotate(90deg);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 35px;
+    padding-top: 250px;
+}
+
+.first_page_grid_container__social_networks_grid button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Rubik', serif;
+    font-size: 14px;
+}
+
+.first_page_grid_container {
+    display: grid;
+    grid-template-columns: 700px 250px auto;
+    grid-gap: 155px;
+    height: 470px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+
